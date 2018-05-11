@@ -10,6 +10,7 @@ Nudity detection with re-trained Tensorflow MobileNet Model. Accuracy is 92.2% b
 
 Installation
 ------------
+.. code-block:: sh
 
     $ pip install nudity
 
@@ -23,6 +24,7 @@ Usage
 via command-line
 
 .. code-block:: sh
+
 
     $ nudity --image=IMAGE_FILE
 
