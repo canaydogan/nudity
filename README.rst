@@ -1,20 +1,22 @@
 nudity
 =======
+.. image:: https://travis-ci.org/canaydogan/nudity.svg?branch=master
+    :target: https://travis-ci.org/canaydogan/nudity
+    :alt: Build status
 
 About
 -----
-Nudity detection with re-trained Tensorflow MobileNet Model. Accuracy is 98.2% based on my dataset
+Nudity detection with re-trained Tensorflow MobileNet Model. Accuracy is 92.2% based on my dataset
 
 Installation
 ------------
-from pip::
 
     $ pip install nudity
 
 
 Requirements
 ------------
-* Python3+
+* Python3.5+
 
 Usage
 -----
