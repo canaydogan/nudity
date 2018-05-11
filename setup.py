@@ -2,7 +2,7 @@ from setuptools import setup, Extension
 
 setup(
     name='nudity',
-    version='0.1.5',
+    version='0.1.6',
     description="Nudity detection with re-trained Tensorflow MobileNet Model",
     long_description=open('README.rst').read(),
     author='Can Aydogan',
