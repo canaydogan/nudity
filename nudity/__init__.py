@@ -65,7 +65,7 @@ class Nudity:
           results = sess.run(self.output_operation.outputs[0],
                             {self.input_operation.outputs[0]: t})
         results = np.squeeze(results)
-        return results[1];
+        return results[1].item();
 
     def has(self, file_name):
         return self.score(file_name) >= 0.9
