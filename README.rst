@@ -6,7 +6,7 @@ nudity
 
 About
 -----
-Nudity detection with re-trained Tensorflow MobileNet Model. Accuracy is 92.2% based on my dataset
+Nudity detection with re-trained Tensorflow MobileNet Model. Accuracy is 92.2% based on my dataset. Give it a try: http://nudity.canaydogan.net
 
 Installation
 ------------
@@ -36,6 +36,6 @@ via Python Module
     nudity = Nudity();
     print(nudity.has('/file/path/example.jpg'))
     # gives you True or False
-    
+
     print(nudity.score('/file/path/example.jpg'))
     # gives you nudity score 0 - 1
