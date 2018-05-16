@@ -68,7 +68,7 @@ class Nudity:
         return results[1].item();
 
     def has(self, file_name):
-        return self.score(file_name) >= 0.9
+        return self.score(file_name) >= 0.8
 
 def main():
     import argparse
