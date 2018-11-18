@@ -6,7 +6,7 @@ nudity
 
 About
 -----
-Nudity detection with re-trained Tensorflow MobileNet Model. Accuracy is 92.2% based on my dataset. Give it a try: http://nudity.canaydogan.net
+Nudity detection with re-trained Tensorflow MobileNet Model. Accuracy is 92.2% based on my dataset.
 
 Installation
 ------------
